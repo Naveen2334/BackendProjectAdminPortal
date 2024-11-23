@@ -13,8 +13,12 @@ public class AppliactionController {
     public String widgets() {
         return "widgets";
     }
-    @GetMapping("/layout")
+    @GetMapping("/_layout")
     public String layout() {
-        return "layout";
+        return "_layout";
+    }
+    @GetMapping("/index2")
+    public String index2() {
+        return "index2";
     }
 }
