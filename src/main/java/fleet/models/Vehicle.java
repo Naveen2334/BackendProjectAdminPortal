@@ -1,6 +1,7 @@
 package fleet.models;
 
 import com.fasterxml.jackson.annotation.JsonIdentityInfo;
+
 import com.fasterxml.jackson.annotation.ObjectIdGenerators;
 
 import hr.models.Employee;
@@ -10,10 +11,11 @@ import lombok.NoArgsConstructor;
 import org.springframework.format.annotation.DateTimeFormat;
 import parameters.models.Location;
 
-import javax.persistence.*;
+import jakarta.persistence.*;
 import java.util.Date;
 
 @Entity
+@Table(name="vehicle")
 @Data
 @NoArgsConstructor
 @AllArgsConstructor

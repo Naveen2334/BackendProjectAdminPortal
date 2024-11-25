@@ -5,7 +5,7 @@ import com.fasterxml.jackson.annotation.ObjectIdGenerators;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 
-import javax.persistence.Entity;
+import jakarta.persistence.*;
 
 @Entity
 @Data

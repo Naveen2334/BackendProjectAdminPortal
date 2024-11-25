@@ -1,6 +1,7 @@
 package helpdesk.models;
 
 import com.fasterxml.jackson.annotation.JsonIdentityInfo;
+
 import com.fasterxml.jackson.annotation.ObjectIdGenerators;
 import hr.models.Employee;
 import lombok.AllArgsConstructor;
@@ -8,7 +9,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.springframework.format.annotation.DateTimeFormat;
 
-import javax.persistence.*;
+import jakarta.persistence.*;
 import java.util.Date;
 
 @Entity

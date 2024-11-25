@@ -6,7 +6,7 @@ import lombok.Data;
 import lombok.EqualsAndHashCode;
 import parameters.models.CommonObject;
 
-import javax.persistence.Entity;
+import jakarta.persistence.*;
 
 @Entity
 @Data

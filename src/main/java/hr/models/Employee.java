@@ -1,14 +1,14 @@
 package hr.models;
 
 import com.fasterxml.jackson.annotation.JsonIdentityInfo;
+
 import com.fasterxml.jackson.annotation.ObjectIdGenerators;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import org.springframework.format.annotation.DateTimeFormat;
 
-import javax.persistence.Entity;
-import javax.persistence.JoinColumn;
-import javax.persistence.ManyToOne;
+import jakarta.persistence.*;
+
 import java.util.Date;
 
 @Entity

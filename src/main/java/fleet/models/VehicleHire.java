@@ -8,7 +8,7 @@ import org.springframework.format.annotation.DateTimeFormat;
 import parameters.models.Client;
 import parameters.models.Location;
 
-import javax.persistence.*;
+import jakarta.persistence.*;
 import java.util.Date;
 
 @Entity

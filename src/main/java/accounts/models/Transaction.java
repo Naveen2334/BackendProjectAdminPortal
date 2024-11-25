@@ -11,7 +11,7 @@ import parameters.models.Client;
 import parameters.models.Contact;
 import parameters.models.Supplier;
 
-import javax.persistence.*;
+import jakarta.persistence.*;
 import java.util.Date;
 
 @Entity
